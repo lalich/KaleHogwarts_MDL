@@ -129,5 +129,10 @@ console.log(Dog)
 
 // It is way too late I have not even got to the flower box yet and well been up since 4AM today with the newborn, rough and no more procrastinating
 
+///////////////// YEAR 7 ////////////////
 
+// changing the class schedule would be pushing a new id into the table
+// using the append and other functionality recall/callback to add to the value of the trunk
+// move the list of belongings from one class/attributte to another
+// done
 
