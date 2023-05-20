@@ -104,3 +104,23 @@ $(daysOfWeek), function(index, day) {
 
 table.append(tbody);
 $('tableContainer').append(table);
+
+
+/// Year 5 - I can not do many of these as I am not getting the expected results so will try code but will be difficult to varify on my end
+
+$h4.removeClass('Dog')
+console.log(Dog)
+
+// I know I need to access the list splice and remove the item from the list 
+
+// this is where I would *push* a new want as an element to the pet
+
+// this would be changing in the css file for the new element
+
+// creating a function to have the pet go on a spy mission, prior to the mission the leash needs to be placed back in the trunk 
+
+// this could be cool on the UX side with graphical representation of the pet moving around
+
+
+
+
