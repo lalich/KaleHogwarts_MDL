@@ -20,8 +20,25 @@ $('<h1/>', {
 
 console.log($('div'))
 
+ const $h2 = $('<div>') // name
+    $('<h2/>', {
+        text: 'Dr. Big D' })
+        .appendTo('body')
+    
+ const $h3 = $('<div>') // element with your house
+        $('<h3/>', {
+            text: 'The Space'
+        })
+        .appendTo('body')
 
-
+ const $h4 = $('<div>').addClass('Dog') // pet's name & class
+ 
+ $('body').append($h4) ;
+        $('<h4/>', {
+            text: ('Aspen Girl & Willow Bug')
+        })
+        .appendTo('body')
+ 
 
 	// put jQuery in here
 
