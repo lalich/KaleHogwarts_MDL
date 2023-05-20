@@ -122,5 +122,12 @@ console.log(Dog)
 // this could be cool on the UX side with graphical representation of the pet moving around
 
 
+//////   YEAR 6  //////////
+// this would be the hide command // setting a delay // unhide the elements //
+// add the class without a leash this time adn make new class of cabage
+
+
+// It is way too late I have not even got to the flower box yet and well been up since 4AM today with the newborn, rough and no more procrastinating
+
 
 
