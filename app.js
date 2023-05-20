@@ -4,19 +4,18 @@
 // if (typeof jQuery == 'undefined'){
 //     console.log('oops! I still have to link my jQuery properly!');
 //   } else {console.log('I did it! I linked jQuery and this js file!')};
-  const $container = $('<div>').attr('id', 'maincontainer') ;
+  const $container = $('<div>').attr('id', 'container') ;
   $('body').append($container);
-
-  const $h1 = $('<div>').attr('id', 'ThunderDome') ;
-$('body').append($h1) ;
   
 $(() => {
     $container
     console.log($container)
  })
+ const $h1 =
 $('<h1/>', {
     text: 'Welcome to da ThunderDome' })
     .appendTo('body');
+    // $('container').append($h1)   ???? Just can not get these to add to drop downs, this assignment is taking so long trying!
 
 console.log($('div'))
 
@@ -39,7 +38,31 @@ console.log($('div'))
         })
         .appendTo('body')
  
+  const $list = $('<ul>').attr('storage', 'trunk')
+  .appendTo('body');
+    const items = [
+        'butter beer',
+        'invisibility cloak',
+        'magic map',
+        'time turner',
+        'leash',
+        'Bertie Botts Every Flavor [Jelly] Beans'
+    ];
+    for (let i = 0; i < items.lenght; i++) {
+        const items = $('<li>').text(items[i]);
 
+        if (items[i] === 'invisibility cloak' || items[i] === 'magic map' || items[i] === 'time turner')
+{
+    listItem.addClass('secret');
+}   
+if (items[i] === 'leash') {
+    listItem.addClass('Dog');
+} 
+  list.append(listItem);
+
+
+$('body').appendTo($list);  }
+console.log(list)
 	// put jQuery in here
 
 // $('<h1/>', {
