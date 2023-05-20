@@ -7,18 +7,21 @@
   const $container = $('<div>').attr('id', 'maincontainer') ;
   $('body').append($container);
 
-  const $h2 = $('<div>').attr('id', 'ThunderDome') ;
-$('body').append($h2) ;
+  const $h1 = $('<div>').attr('id', 'ThunderDome') ;
+$('body').append($h1) ;
   
 $(() => {
     $container
     console.log($container)
  })
-$('<h2/>', {
+$('<h1/>', {
     text: 'Welcome to da ThunderDome' })
     .appendTo('body');
 
 console.log($('div'))
+
+
+
 
 	// put jQuery in here
 
