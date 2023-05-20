@@ -62,7 +62,7 @@ if (items[i] === 'leash') {
 
 
 $('body').appendTo($list);  }
-console.log(list)
+
 	// put jQuery in here
 
 // $('<h1/>', {
@@ -73,3 +73,34 @@ console.log(list)
 //     text: 'Trois colors: rouge, blanc, et blue'
 //  }).appendTo('body');
   
+// YEAR 4
+
+const daysOfWeek = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'];
+const classes = ['Herbology', 'Divination', 'History of Magic', 'Charms', 'Potions', 'Transfiguration', 
+'Defense Against the Dark Arts', 'Quidditch practice'];
+
+const table = $('<table>').addClass('theTable');
+const thread = $('<thread>')
+const headerRow = $('<tr>').append(
+    $('<th>').text('Day'),
+    $('<th>').text('Classes')
+);
+
+thread.append(headerRow);
+table.append(thread);
+
+const tbody = $('<tbody>');
+$(daysOfWeek), function(index, day) {
+    const classlist = index === 0 ? classes.join(',') : '';    /// I consulted Chat GPT, I am having a tough time on this assignment
+    // the assignment calls for 4 hours and I am way past that. 
+    const row = $('<tr>').append(
+        $('<td>').text(day),
+        $('<td>').text(classlist)
+    );
+
+    tbody.append(row);
+
+};
+
+table.append(tbody);
+$('tableContainer').append(table);
