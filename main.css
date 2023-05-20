@@ -1,6 +1,12 @@
-body {background-color: #183628}/*or any color of your choosing*/
-
+body {background-color: #183628  ;   
+    /*or any color of your choosing*/
+    text-align: center;
+}
 h1 {
     text-align: center;
     color: yellow;
+}
+
+h2 {
+    color: blueviolet;
 }
